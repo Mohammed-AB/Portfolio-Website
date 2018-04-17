@@ -22,8 +22,9 @@ class App extends Component {
       {/* header color */}
         <Header className='header-color' title="Main" scroll>
             <Navigation>
-                <Link to="/resume">Reusme</Link>
-                <Link className='header' to="/aboutme">About me</Link>
+                <Link to="/landingpage">Home</Link>
+                {/* <Link to="/resume">Reusme</Link> */}
+                <Link to="/aboutme">About me</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
             </Navigation>
