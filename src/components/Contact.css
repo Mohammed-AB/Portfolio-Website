@@ -1,0 +1,49 @@
+.contact-wrapper {
+    max-width: 900px;
+    margin: auto;
+    background: rgba(19, 78, 94, 0.144);  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, rgba(113, 178, 128, 0.151), rgba(19, 78, 94, 0.445));  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, rgba(113, 178, 128, 0.616), rgba(19, 78, 94, 0.603)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+text-align: center;
+  justify-content: center;
+  
+}
+
+form .btn {
+    margin: 20px 0;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+.form-group label {
+    margin: 10px 0;
+}
+.form-group input {
+    line-height: 30px;
+}
+.form-group input, .form-group textarea {
+    padding: 5px;
+    border: none;
+    box-shadow: var(--shadow);
+}
+
+
+.contact-message {
+    text-align: center;
+}
+
+.message {
+    padding: 10px;
+    text-align: center;
+    color: #FFF;
+    border-radius: 4px;
+}
+.danger {
+    background-color: red;
+}
+.success {
+    background-color: green;
+}

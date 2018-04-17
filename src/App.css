@@ -1,18 +1,20 @@
 
 /* header color */
 .header-color {
-  background: #141E30;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, rgb(29, 47, 68), rgb(15, 23, 39)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* background: #141E30;  
+background: -webkit-linear-gradient(to right, #243B55, #141E30);  
+background: linear-gradient(to right, rgb(29, 47, 68), rgb(15, 23, 39));  */
+background: #134E5E;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #71B280, #134E5E);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #71B280, #134E5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
 /* Landing pagecolor */
 .landing-grid{
-  background: #141E30;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  /* background: #141E30;  
+background: -webkit-linear-gradient(to right, #243B55, #141E30);  
+background: linear-gradient(to right, #243B55, #141E30);  */
 
   /* center everything */
   text-align: center;
@@ -24,6 +26,16 @@ background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, F
 }
 
 
+
+@media screen and (max-width: 1028px) { 
+  foo {
+      width:50%;
+  }
+}
+
+
+
+
 /* Landing page Image */
 .avatar-img {
   height: 260px;
@@ -33,7 +45,7 @@ background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, F
 /* text title */
 
 .title-text {
-  background-color: rgba(31, 35, 71, 0.479);
+  /* background-color: rgba(31, 35, 71, 0.479); */
   opacity: .8;
   width: 75%;
   margin: auto;
@@ -71,12 +83,72 @@ background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, F
   color:  black;
 }
 
+.AddNew {
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
 .projects-grid{
   display: flex;
-  background: #000428;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* background: #000428;  
+background: -webkit-linear-gradient(to left, #004e92, #000428); 
+background: linear-gradient(to left, #004e92, #000428);  */
+}
 
+/* contact page CSS  */
+
+contact-body {
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  /* background:  #02607781; */
+  background-color: rgba(31, 35, 71, 0.527);
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+  font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  /* border-top: 5px dotted rgb(255, 255, 255); */
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i {
+  font-size: 66px;
+  padding-right: 5rem;
 }
 
 
+
+.fa-envelope {
+  color: #1aadaf
+}
+
+.fa-skype {
+  color: #1aadaf
+}
+
+.fa-map-marker {
+  color: #1aadaf
+}

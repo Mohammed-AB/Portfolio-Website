@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 
+
 // first
 
 class LandingPage extends Component {
     render() {
       return(
           <div Style={{Width: '100%', margin: 'auto' }}>
+
           <Grid className="landing-grid">
           <Cell col={12}>
           
@@ -20,7 +22,7 @@ class LandingPage extends Component {
           />
           <div className="title-text">
 
-          <h1> Add your  title here </h1>
+          <h1> Front End Devolper </h1>
           {/* self closing  */}
           <hr/>
 
@@ -36,8 +38,8 @@ class LandingPage extends Component {
             <i className="fa fa-github-square" aria-hidden="true" /></a>
 
             {/* LinkedIn */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-linkedin-square" aria-hidden="true" /></a>
+          {/* <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+            <i className="fa fa-linkedin-square" aria-hidden="true" /></a> */}
           </div>
           </div>
           </Cell>
