@@ -41,7 +41,10 @@ class App extends Component {
             <Main/>
         </Content>
     </Layout>
+
+
     
+    {/* Particles effect  */}
 
       <Particles 
              params={{
