@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Layout, Header, Navigation, Content } from 'react-mdl'
+import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl'
 import Main from './components/main';
 import { Link } from 'react-router-dom';
 import Particles from 'react-particles-js';
@@ -20,7 +20,7 @@ class App extends Component {
       <div className="demo-big-content">
     <Layout>
       {/* header color */}
-        <Header className='header-color' title="Main" scroll>
+        <Header className='header-color' title="Menu" scroll>
             <Navigation>
                 <Link to="/landingpage">Home</Link>
                 {/* <Link to="/resume">Reusme</Link> */}
@@ -29,14 +29,14 @@ class App extends Component {
                 <Link to="/contact">Contact</Link>
             </Navigation>
         </Header>
-        {/* <Drawer title="Title">
+        <Drawer title="Title">
         <Navigation>
                 <Link to="/resume">Reusme</Link>
                 <Link to="/aboutme">About me</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
             </Navigation>
-        </Drawer> */}
+        </Drawer>
         <Content>
             <div className="page-content" />
             <Main/>

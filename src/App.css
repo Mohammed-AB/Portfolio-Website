@@ -27,12 +27,6 @@ background: linear-gradient(to right, #243B55, #141E30);  */
 
 
 
-@media screen and (max-width: 1028px) { 
-  foo {
-      width:50%;
-  }
-}
-
 
 
 
@@ -120,7 +114,6 @@ contact-body {
 }
 
 
-
 .contact-grid h2 {
   font-family: 'Anton', sans-serif;
 }
@@ -154,3 +147,5 @@ contact-body {
 .fa-map-marker {
   color: #1aadaf
 }
+
+
